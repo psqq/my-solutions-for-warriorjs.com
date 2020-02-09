@@ -193,6 +193,7 @@ class Player {
       new PivotAction('backward'),
       new GoWhileCanAction('forward'),
       new KillAction('forward'),
+      new GoWhileCanAction('forward'),
       new RescueAction('forward'),
       new GoWhileCanAction('forward'),
     ]);
